@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Lesson3: View {
+struct BehindMainSwiftUIView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -17,6 +17,6 @@ struct Lesson3: View {
 
 struct Lesson3_Previews: PreviewProvider {
     static var previews: some View {
-        Lesson3()
+        BehindMainSwiftUIView()
     }
 }

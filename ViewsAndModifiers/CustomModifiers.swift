@@ -46,7 +46,7 @@ extension View {
     }
 }
 
-struct Lesson10: View {
+struct CustomModifiers: View {
     var body: some View {
         VStack {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
@@ -63,6 +63,6 @@ struct Lesson10: View {
 
 struct Lesson10_Previews: PreviewProvider {
     static var previews: some View {
-        Lesson10()
+        CustomModifiers()
     }
 }

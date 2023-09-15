@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Lesson6: View {
+struct ConditionalModifiers: View {
     @State private var useRedText = false
     var body: some View {
         Button("Hello, world!") {
@@ -19,6 +19,6 @@ struct Lesson6: View {
 
 struct Lesson6_Previews: PreviewProvider {
     static var previews: some View {
-        Lesson6()
+        ConditionalModifiers()
     }
 }

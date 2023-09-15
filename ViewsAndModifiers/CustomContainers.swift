@@ -25,7 +25,7 @@ struct GridStack<Content: View>: View {
     }
 }
 
-struct Lesson11: View {
+struct CustomContainers: View {
     var body: some View {
         GridStack(rows: 4, columns: 4){ row, column in
             Image(systemName: "\(row * 4 + column).circle")
@@ -36,6 +36,6 @@ struct Lesson11: View {
 
 struct Lesson11_Previews: PreviewProvider {
     static var previews: some View {
-        Lesson11()
+        CustomContainers()
     }
 }

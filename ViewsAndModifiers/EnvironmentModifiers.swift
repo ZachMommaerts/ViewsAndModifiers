@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Lesson7: View {
+struct EnvironmentModifiers: View {
     var body: some View {
         VStack {
             Text("Gryffindor")
@@ -24,6 +24,6 @@ struct Lesson7: View {
 
 struct Lesson7_Previews: PreviewProvider {
     static var previews: some View {
-        Lesson7()
+        EnvironmentModifiers()
     }
 }

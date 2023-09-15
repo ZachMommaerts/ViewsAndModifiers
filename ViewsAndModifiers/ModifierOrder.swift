@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Lesson4: View {
+struct ModifierOrder: View {
     var body: some View {
         VStack {
             Button(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/) {
@@ -37,6 +37,6 @@ struct Lesson4: View {
 
 struct Lesson4_Previews: PreviewProvider {
     static var previews: some View {
-        Lesson4()
+        ModifierOrder()
     }
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Lesson8: View {
+struct ViewsAsProperties: View {
     var motto1: some View {
         Text("Draco dormiens")
     }
@@ -51,6 +51,6 @@ struct Lesson8: View {
 
 struct Lesson8_Previews: PreviewProvider {
     static var previews: some View {
-        Lesson8()
+        ViewsAsProperties()
     }
 }

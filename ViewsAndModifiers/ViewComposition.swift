@@ -19,7 +19,7 @@ struct CapsuleText: View {
     }
 }
 
-struct Lesson9: View {
+struct ViewComposition: View {
     var body: some View {
         VStack(spacing: 10) {
             Text("First")
@@ -40,6 +40,6 @@ struct Lesson9: View {
 
 struct Lesson9_Previews: PreviewProvider {
     static var previews: some View {
-        Lesson9()
+        ViewComposition()
     }
 }
